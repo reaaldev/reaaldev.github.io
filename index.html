@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <title>cydia | reaal.uk</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="https://firebasestorage.googleapis.com/v0/b/resourcestomcocker.appspot.com/o/images%2Fearth-globe-asia-australia_1f30f.png?alt=media&token=327d9801-e866-4115-af2f-cd709e1d87a3">
+</head>
+
+<body>
+
+    <!-- loading page -->
+    <div class="links">
+        <a href="https://twitter.com/intent/follow?screen_name=reaaldev" class="twitterlogo">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://reaal.uk" class="home">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="https://reddit.com/u/reaaldev" class="reddit">
+            <i class="fab fa-reddit"></i>
+        </a>
+        <a href="https://guthub.com/tcockerdev" class="github">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+    <div class="main">
+        <div class="content">
+            <img style="max-width: 25%; max-height: auto;"
+                src="https://firebasestorage.googleapis.com/v0/b/resourcestomcocker.appspot.com/o/images%2Fwhitebanner.png?alt=media&token=b6a854a0-e1c6-47f9-b13a-ada44e5a0efb"
+                alt="logo">
+            <p>HTML and JS developer</p>
+            <div class="cydia">
+                <a target="_blank" href="https://cydia.saurik.com/api/share#?source=cydia.reaal.uk/">
+                    <i class="fas fa-chevron-right"></i>
+                    <span>add to cydia</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- loading page -->
+
+    <!-- packages page -->
+    <div class="packages">
+        <h1>Packages</h1>
+    </div>
+    <!-- packages page -->
+
+    <!-- css -->
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            display: grid;
+            grid-template-rows: 100vh 100vh;
+        }
+
+        .main {
+            grid-row: 1/1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: #191919;
+        }
+
+        .packages {
+            grid-row: 2/2;
+        }
+
+        .packages h1 {
+            margin-top: 28px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+
+        .content {
+            min-width: 85%;
+        }
+
+        .links i {
+            color: #333;
+            font-size: 17px;
+        }
+
+        .links i:hover {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .cydia a {
+            color: #333;
+            text-decoration: none;
+            font-size: 15px;
+            animation: textcolor 3s forwards 0s linear;
+        }
+
+        .cydia a:hover {
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .twitterlogo {
+            position: absolute;
+            top: 18px;
+            right: 56px;
+            animation: comein 5s forwards 0s linear;
+        }
+
+        .home {
+            position: absolute;
+            top: 18px;
+            right: 28px;
+            animation: comein 5s forwards 0s linear;
+        }
+
+        .reddit {
+            position: absolute;
+            top: 18px;
+            right: 84px;
+            animation: comein 5s forwards 0s linear;
+        }
+
+        .github {
+            position: absolute;
+            top: 18px;
+            right: 112px;
+            animation: comein 5s forwards 0s linear;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #191919;
+        }
+
+        @keyframes comein {
+            0% {
+                transform: translateY(-300%);
+            }
+
+            24% {
+                transform: translate(0%);
+
+            }
+        }
+    </style>
+    <!-- css -->
+</body>
+
+</html>

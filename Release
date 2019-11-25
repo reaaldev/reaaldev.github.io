@@ -1,0 +1,8 @@
+Origin: cydia.reaal.uk
+Label: reaal repository
+Suite: stable
+Version: 0.9
+Codename: devreaal
+Architectures: iphoneos-arm
+Components: main
+Description: A Repositorys
