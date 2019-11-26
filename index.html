@@ -43,6 +43,9 @@
                 </a>
             </div>
         </div>
+        <div class="scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </div>
     <!-- loading page -->
 
@@ -71,6 +74,15 @@
             justify-content: center;
             text-align: center;
             background: #191919;
+        }
+
+        .scroll {
+            position: absolute;
+            text-align: center;
+            bottom: 10%;
+            animation: updown 2s infinite 0s ease-in;
+            display: inline;
+            min-width: 10%;
         }
 
         .packages {
@@ -158,6 +170,16 @@
             24% {
                 transform: translate(0%);
 
+            }
+        }
+
+        @keyframes updown {
+            50% {
+                transform: translateY(-40%);
+            }
+
+            100% {
+                transform: translate(0%);
             }
         }
     </style>
